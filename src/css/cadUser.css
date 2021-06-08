@@ -1,0 +1,22 @@
+.form-cadUser{
+    font-weight: 500;
+}
+.form-cadUser>h3{
+    margin: 10% 0 10% 0;
+}
+
+#radio-btn{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0 8% 7%;
+}
+#radio-btn> label >span {
+    color:#36373b;
+    font-weight:500;
+}
+#datNac{
+    margin-top: 8%;
+}
+#btn-cadUser{
+    margin: 5% 0 5% 0;
+}

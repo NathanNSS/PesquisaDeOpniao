@@ -1,0 +1,55 @@
+#createEnquete, #logo {
+    margin: 0 15px;
+}
+#navBar{
+    padding: 0 35px 0 20px;
+}
+.iconUser{
+    padding: 18px 0 0 0;
+    width:100%;
+    
+}
+#contenier_IconUser{
+    align-content: center;
+    width: 4rem;
+    height: 64px;
+}
+#contenier_IconUser:hover{
+    padding: 0 1px;
+
+}
+#createEnquete:hover{
+    background-color: #014e8b;
+    padding: 0 5px;
+}
+#linkLogin{
+height: 64px;
+}
+.iconNewUser{
+    height: 45%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 0;
+}
+#btn-iconNewUser{
+    margin: 25px 0 0 0;
+    align-items: center;
+    
+}
+#loginUser{
+    flex: 1;
+    height: 46%;
+    width: 30%;
+    overflow-y: unset;
+    padding: 1% 0px 0px 0px;
+
+}
+.form-loginUser .input-field{
+    padding: 5px 0px 5px 0px;
+}
+#btn-loginUser{
+    text-align: center;
+}
+
+
+            
