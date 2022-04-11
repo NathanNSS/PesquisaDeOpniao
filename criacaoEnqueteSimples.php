@@ -87,10 +87,12 @@ if(isset($_POST["btnEnviar"])){
 
             $sqlInset2 = "INSERT INTO `enquete_simples_num`(`Cod_Enquete_Simples_Num`, `id_user`) VALUES ('$idChave', NULL)";
         }
-        echo $sqlInset; 
+        echo $sqlInset;
+        echo "<br> ----- SQL Num ----- <br>"; 
         echo $sqlInset2; 
         if(mysqli_query($linkBD,$sqlInset)){
             mysqli_query($linkBD,$sqlInset2);
+         
             $_SESSION['menssagem'] = "Enquete &nbsp;<b>$titulo</b>&nbsp; foi Criada<br>";
             mysqli_close($linkBD);
             header("location: votacao.php?chave=$idChave");

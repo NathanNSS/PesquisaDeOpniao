@@ -64,7 +64,7 @@ if(isset($_POST["btn-votar"])){
                 break;
         }
 
-        $sqlAdicao = "UPDATE enquete_simples_num SET $resultID = $resultID+1 WHERE Cod_Enquete_Simples_Num = '$chave'";
+        $sqlAdicao = "UPDATE enquete_simples_num SET $resultID = IFNULL($resultID,0)+1 WHERE Cod_Enquete_Simples_Num = '$chave'";
 
         $sqlTotal = "SELECT SUM(Item1, Item2, Item3, Item4, Item5, Item6, Item7, Item8, Item9, Item10) AS total FROM enquete_simples_num  WHERE Cod_Enquete_Simples_Num = '$chave'";
 

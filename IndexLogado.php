@@ -75,8 +75,8 @@ require_once "paginacaoPesq.php";
 
                     <li id="camPesq">
                         <form action="<?php echo $_SERVER['PHP_SELF']?>" method="GET">
-                            <div class="input-field light-blue darken-4">
-                                <input id="search" class="light-blue darken-4   white-text" value="<?php echo $pesquisa; ?>" type="search" name="pesquisa" required>
+                            <div class="input-field light-blue darken-4" id="containerSearch">
+                                <input id="search" class="light-blue darken-4 white-text" value="<?php echo $pesquisa; ?>" type="search" name="pesquisa" required>
                                 <label class="label-icon" for="search"><i class="material-icons ">search</i></label>
                                 <i class="material-icons" id="iconPesq">close</i>    
                             </div>
@@ -113,7 +113,7 @@ require_once "paginacaoPesq.php";
                     <form action="<?php echo $_SERVER['PHP_SELF']?>" method="GET">
                         <div class="input-field light-blue darken-4">
                             <input id="searchM" class="light-blue darken-4 white-text" value="<?php echo $pesquisa; ?>" type="search" name="pesquisa" required>
-                            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                            <label class="label-icon" for="searchM"><i class="material-icons">search</i></label>
                             <i class="material-icons" id="iconPesqM">close</i>    
                         </div>
                     </form>

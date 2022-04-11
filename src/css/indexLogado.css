@@ -10,10 +10,12 @@
 .iconUser{
     padding: 18px 0 0 0;
     width:30px;
+    margin-bottom: 14px;
     
 }
 #contenier_IconUser{
-    align-content: center;
+    align-items: center;
+    display: flex;
     width: 250px;
     height: 64px;
 }
@@ -30,6 +32,8 @@
 }
 #linkLogin{
 height: 64px;
+display: flex;
+align-items: center;
 }
 .iconNewUser{
     height: 45%;
