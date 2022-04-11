@@ -6,10 +6,10 @@
 
 <br>
 
- <img alt="Pesquisa de Opinião" height="150" title="Home" src="src/img/home.jpeg"/>
- <img alt="Pesquisa de Opinião" height="150" title="Criação" src="src/img/criacao.png"/>
- <img alt="Pesquisa de Opinião" height="150" title="Votos" src="src/img/votos.png"/>
- <img alt="Pesquisa de Opinião" height="150" title="Perfil" src="src/img/perfil.png"/>
+<img alt="Pesquisa de Opinião" title="Home" src="src/img/home.png" width="45%"></img>
+<img alt="Pesquisa de Opinião" title="Criação" src="src/img/criacao.png" width="45%"></img> 
+<img alt="Pesquisa de Opinião" title="Votos" src="src/img/votos.png" width="45%"></img>
+<img alt="Pesquisa de Opinião" title="Perfil" src="src/img/perfil.png" width="45%"></img> 
 
 ## 💻 Projeto
 
